@@ -4,7 +4,7 @@
 
 ### Complete
 
-Use full sentences (sentence case, including period). If the commit is issue related, add a prefix "[Verb #ID] " (don't forget the space). Use simple past tense or simple present tense.
+Use full sentences (sentence case, including period). If the commit is issue related, add a prefix “[Verb #ID] ” (don’t forget the space). Available verbs are Fix, Close, and On (Fix and Close will close the issue). Use simple past tense or simple present tense.
 
 **For example:**
 ```
