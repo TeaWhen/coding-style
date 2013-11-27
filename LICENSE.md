@@ -1,0 +1,1 @@
+The content of this guide is licensed under a [Creative Commons Attribution License](http://creativecommons.org/licenses/by/4.0/deed.en_US): you may use it, but you must give attribution.
