@@ -36,7 +36,7 @@ Follow [NYTimes Style Guide](https://github.com/NYTimes/objective-c-style-guide)
 
 Except that we write method implementation’s beginning bracket in a single line, as:
 
-```
+```objc
 - (IBAction)dateChanged:(UIDatePicker *)sender
 {
     self.dateField.text = [sender.date dateString];
