@@ -4,7 +4,7 @@
 
 ### Complete
 
-Use full sentences (sentence case, including period). If the commit is issue related, add a prefix “[Verb #ID] ” (don’t forget the trailing space). Available verbs are **Fix**, **Close**, and **On** (Fix and Close will close the issue). Use simple past tense or simple present tense.
+Use full sentences (sentence case, including period). If the commit is issue related, add a prefix “[Verb #ID] ” (don’t forget the trailing space). Available verbs are **Fix**, **Close**, and **On** (**Fix** and **Close** will close the issue). Use simple past tense or simple present tense.
 
 **For example:**
 ```
@@ -32,9 +32,9 @@ bug fix
 
 ## Objective-C Style
 
-Use [this guide](https://github.com/NYTimes/objective-c-style-guide).
+Follow [NYTimes Style Guide](https://github.com/NYTimes/objective-c-style-guide).
 
-Except that we write method implementation's beginning bracket in a single line, as:
+Except that we write method implementation’s beginning bracket in a single line, as:
 
 ```
 - (IBAction)dateChanged:(UIDatePicker *)sender
@@ -42,3 +42,5 @@ Except that we write method implementation's beginning bracket in a single line,
     self.dateField.text = [sender.date dateString];
 }
 ```
+
+One thing to emphasize, DO NOT use any abbreviations unless they are very common. Long variable names are not bad.
