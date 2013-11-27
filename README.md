@@ -9,13 +9,17 @@ Use full sentences (sentence case, including period). If the commit is issue rel
 **For example:**
 ```
 [Fix #3] Migrated to AFNetworking 2.0.
-[On #2] Trying TeaChart.
+```
+```
+[On #2] Trying TEAChart.
 ```
 
 **But not:**
 ```
 migrated to AFNetworking 2.0
-trying TeaChart
+```
+```
+trying TEAChart
 ```
 
 ### Explicit
