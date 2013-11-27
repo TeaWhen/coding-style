@@ -4,16 +4,18 @@
 
 ### Complete
 
-Use full sentences (sentence case, including period). If the commit is issue related, add a prefix “[Verb #ID] ” (don’t forget the trailing space). Available verbs are **Fix**, **Close**, and **On** (**Fix** and **Close** will close the issue). Use simple past tense or simple present tense.
+Use full sentences (sentence case, including period). If the commit is issue related, add a prefix “[Verb #ID] ” (don’t forget the trailing space). Available verbs are **Fix**, **Close**, and **On** (**Fix** and **Close** will close the issue).
 
 **For example:**
 ```
 [Fix #3] Migrated to AFNetworking 2.0.
+[On #2] Trying TeaChart.
 ```
 
 **But not:**
 ```
-migrate to AFNetworking 2.0
+migrated to AFNetworking 2.0
+trying TeaChart
 ```
 
 ### Explicit
