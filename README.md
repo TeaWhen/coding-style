@@ -30,7 +30,7 @@ Fixed table view cell text overflow.
 bug fix
 ```
 
-## Objetive-C Style
+## Objective-C Style
 
 Use [this guide](https://github.com/NYTimes/objective-c-style-guide).
 
