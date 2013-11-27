@@ -4,7 +4,7 @@
 
 ### Complete
 
-Use full sentences (sentence case, including period). If the commit is issue related, add a prefix “[Verb #ID] ” (don’t forget the space). Available verbs are Fix, Close, and On (Fix and Close will close the issue). Use simple past tense or simple present tense.
+Use full sentences (sentence case, including period). If the commit is issue related, add a prefix “[Verb #ID] ” (don’t forget the trailing space). Available verbs are **Fix**, **Close**, and **On** (Fix and Close will close the issue). Use simple past tense or simple present tense.
 
 **For example:**
 ```
@@ -28,4 +28,17 @@ Fixed table view cell text overflow.
 **But not:**
 ```
 bug fix
+```
+
+## Objetive-C Style
+
+Use [this guide](https://github.com/NYTimes/objective-c-style-guide).
+
+Except that we write method implementation's beginning bracket in a single line, as:
+
+```
+- (IBAction)dateChanged:(UIDatePicker *)sender
+{
+    self.dateField.text = [sender.date dateString];
+}
 ```
