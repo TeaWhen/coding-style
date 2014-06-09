@@ -4,19 +4,19 @@
 
 ### Complete
 
-Use full sentences (sentence case, including period). If the commit is issue related, add a prefix “[Verb #ID] ” (don’t forget the trailing space). Available verbs are **Fix**, **Close**, and **On** (**Fix** and **Close** will close the issue).
+Use sentence case. If the commit is issue related, add a prefix “[Verb #ID] ” (don’t forget the trailing space). Available verbs are **Fix**, **Close**, and **On** (**Fix** and **Close** will close the issue).
 
 **For example:**
 ```
-[Fix #3] Migrated to AFNetworking 2.0.
+[Fix #3] Migrated to AFNetworking 2.0
 ```
 ```
-[On #2] Trying TEAChart.
+[On #2] Trying TEAChart
 ```
 
 **But not:**
 ```
-migrated to AFNetworking 2.0
+migrated to afn 2.0
 ```
 ```
 trying TEAChart
@@ -28,7 +28,7 @@ Use explicit description.
 
 **For example:**
 ```
-Fixed table view cell text overflow.
+Fixed table view cell text overflow
 ```
 
 **But not:**
